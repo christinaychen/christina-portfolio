@@ -8,25 +8,35 @@ export default class Navbar extends Component {
         scroll.scrollToTop();
     };
 
+
     render() {
-        return (
+
+
+        let nameStyle = {
+            display: "none"
+        };
+
+        if(window.pageYOffset>=797) nameStyle.display="block";
+
+            return (
             <div>
             <nav className="nav-bar">
                 <div className="nav-title" onClick={this.scrollToTop}>
                     <img src={icon} className="icon"/>
-                    <p>Christina Chen</p>
+
+                    <p id="name" style={nameStyle}>Christina Chen</p>
                 </div>
                 <ul className="nav-items">
-                    <li className="nav-item">
-                        <Link
-                        activeClass="active"
-                        to="section2"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
-                        About Me
-                    </Link></li>
+                    {/*<li className="nav-item">*/}
+                        {/*<Link*/}
+                        {/*activeClass="active"*/}
+                        {/*to="section2"*/}
+                        {/*spy={true}*/}
+                        {/*smooth={true}*/}
+                        {/*offset={-70}*/}
+                        {/*duration={500}>*/}
+                        {/*About Me*/}
+                    {/*</Link></li>*/}
                     <li className="nav-item">
                         <Link
                             activeClass="active"

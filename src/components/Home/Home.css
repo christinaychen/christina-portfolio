@@ -1,13 +1,33 @@
-.header {
-    backgroundImage:url('../../assets/home-background.jpg');
-    height: 100vh;
-    backgroundPosition: center;
-    backgroundRepeat: no-repeat;
-    backgroundSize: cover;
+/*.header {*/
+    /*backgroundImage:url("../../assets/home-background.jpg");*/
+    /*height: 100vh;*/
+    /*backgroundPosition: center;*/
+    /*backgroundRepeat: no-repeat;*/
+    /*backgroundSize: cover;*/
+/*}*/
+
+
+.greeting {
+    position: absolute;
+    font-size: 80px;
+    color: #ccc;
+    padding: 15% 0 0 5%;
 }
 
-.content {
-    height: 100%;
-    width: 100%;
-    backgroundColor: rgba(0, 0, 0, 0.5);
+h1 {
+    position: absolute;
+    font-size: 70px;
+    color: #3b3836;
+    padding: 15% 0 0 5%;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #44413f;
+    max-width: 60%;
+    padding: 26% 0 0 5%;
+    text-align: left;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }

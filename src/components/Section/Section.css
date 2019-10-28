@@ -1,14 +1,2 @@
 .section {
-    animation: anim 1s ease-out 0s 1;
-
-}
-
-
-@keyframes section {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }

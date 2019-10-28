@@ -1,7 +1,8 @@
 import React from "react";
 import classes from "./Section.css";
+import ScrollAnimation from "../Sections/Sections";
 
-export default function Section({ title, subtitle, id, backgroundImage, backgroundColor }) {
+export default function Section({ title, subtitle, id, content, backgroundImage, backgroundColor }) {
     //USE CSS MODULES-ALTER CSS FILE
     let style;
     if(backgroundImage!=null) {
@@ -25,11 +26,13 @@ export default function Section({ title, subtitle, id, backgroundImage, backgrou
     }
 
     return (
-        <div style={style} className="section">
-            <div className="section-content" id={id}>
-                {/*<h1>{title}</h1>*/}
-                {/*<p>{subtitle}</p>*/}
+
+        <div style={style}>
+
+            <div id={id}>
+                {content}
             </div>
-        </div>
+
+</div>
     );
 }

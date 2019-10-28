@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 /*.App-logo {*/
@@ -20,3 +21,23 @@
 /*.App-link {*/
   /*color: #09d3ac;*/
 /*}*/
+
+
+.background {
+  height: 100vh;
+  backgroundPosition: center;
+  backgroundRepeat: no-repeat;
+  backgroundSize: cover;
+}
+
+.section-title {
+  font-size: 80px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+.title-right {
+  display: flex;
+  justify-content: flex-start;
+
+}
