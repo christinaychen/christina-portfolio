@@ -1,0 +1,13 @@
+.header {
+    backgroundImage:url('../../assets/home-background.jpg');
+    height: 100vh;
+    backgroundPosition: center;
+    backgroundRepeat: no-repeat;
+    backgroundSize: cover;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    backgroundColor: rgba(0, 0, 0, 0.5);
+}
