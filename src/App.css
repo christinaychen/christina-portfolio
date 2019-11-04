@@ -22,22 +22,165 @@
   /*color: #09d3ac;*/
 /*}*/
 
+h1 {
+  position: absolute;
+  font-size: 70px;
+  color: #3b3836;
+  padding: 15% 0 0 5%;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
 
-.background {
-  height: 100vh;
-  backgroundPosition: center;
-  backgroundRepeat: no-repeat;
-  backgroundSize: cover;
+h2 {
+  position: absolute;
+  font-size: 20px;
+  color: #3b3836;
+  min-height: 24%;
+  max-width: 60%;
+  padding: 25% 0 0 5%;
+  text-align: left;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 .section-title {
   font-size: 80px;
   color: white;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  padding-top: 50px;
 }
 
-.title-right {
+.section-subtitle {
+  font-size: 30px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+.page-left {
   display: flex;
   justify-content: flex-start;
+  padding-left: 40px;
+}
 
+.page-right {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*.horizontal-flex {*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*flex-wrap: wrap;*/
+/*}*/
+
+.photo {
+  width: 100%;
+}
+
+.item-text {
+  font-size: 15px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;}
+
+.involvement .section-items {
+  margin: 0px 300px 0px 300px;
+}
+
+.about-me .section-items {
+  margin: 0px 100px 0px 100px;
+}
+
+.projects .section-items {
+  margin: 0px 300px 0px 300px;
+}
+
+.text {
+  font-size: 18px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  position: relative;
+}
+
+/*info-item*/
+.item {
+  background-color: rgba(204, 204, 204, 0.5);
+  margin: 15px;
+  padding: 10px;
+}
+
+.item:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  position: relative;
+  margin:auto;
+  padding-top: 1%;
+  width:50%;
+  height: 600px;
+  background: rgba(204, 204, 204,0.8);
+  overflow: auto;
+  animation: zoomin 1s 1;
+}
+
+.display-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-none {
+  display: none;
+}
+
+.sections {
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+
+}
+
+.empty {
+  height: 200px;
+}
+
+.close-button {
+  position: fixed;
+  bottom: -50px;
+  height:50px;
+  width:50%;
+  background-color: rgba(204, 204, 204, 0.5);
+  border: none;
+}
+
+.close-button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.slideshow {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.button-div {
+  position:relative;
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(0.5,0.5);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+.bookable-video {
+  clip: rect(0px,60px,200px,0px);
 }

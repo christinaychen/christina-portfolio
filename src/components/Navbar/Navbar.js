@@ -27,16 +27,15 @@ export default class Navbar extends Component {
                     <p id="name" style={nameStyle}>Christina Chen</p>
                 </div>
                 <ul className="nav-items">
-                    {/*<li className="nav-item">*/}
-                        {/*<Link*/}
-                        {/*activeClass="active"*/}
-                        {/*to="section2"*/}
-                        {/*spy={true}*/}
-                        {/*smooth={true}*/}
-                        {/*offset={-70}*/}
-                        {/*duration={500}>*/}
-                        {/*About Me*/}
-                    {/*</Link></li>*/}
+                    <li className="nav-item">
+                        <Link
+                            activeClass="active"
+                            to="section2"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}>
+                            About Me</Link></li>
                     <li className="nav-item">
                         <Link
                             activeClass="active"
@@ -54,14 +53,16 @@ export default class Navbar extends Component {
                             smooth={true}
                             offset={-70}
                             duration={500}>Involvement</Link></li>
+
                     <li className="nav-item">
-                        <Link
-                            activeClass="active"
-                            to="section5"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={500}>Hobbies</Link></li>
+                    <Link
+                        activeClass="active"
+                        to="section5"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>Resume</Link></li>
+
                 </ul>
             </nav>
             </div>
