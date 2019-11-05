@@ -2,7 +2,7 @@
   "name": "christina-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://christina-chen.com",
+  "homepage": "https://christina-chen.com",
   "dependencies": {
     "aos": "^2.3.4",
     "react": "^16.11.0",
