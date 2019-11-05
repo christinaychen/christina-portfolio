@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../App.css'
-import { Slide } from 'react-slideshow-image';
 import Modal from './Modal';
 import SlideShow from 'react-slidez';
 import Slide1 from '../../assets/bookableslides/Slide1.jpeg';

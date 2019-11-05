@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../App.css'
-import { Slide } from 'react-slideshow-image';
 import Modal from './Modal';
 
 const TriviaModal = ({ handleClose, show }) => {
