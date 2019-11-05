@@ -12,8 +12,8 @@ export default class Resume extends Component {
         return (
             <div data-aos="zoom-in-up"
                  data-aos-duration="1000"
-                 data-aos-offset="1000"
                  data-aos-once="false"
+                 data-aos-anchor-placement="bottom-top"
                  className="about-me">
                 <p className="section-title">Resume</p>
                 <div className="section-items">
