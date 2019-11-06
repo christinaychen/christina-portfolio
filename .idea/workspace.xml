@@ -8,9 +8,6 @@
       <change afterPath="$PROJECT_DIR$/../CS308/test/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/Involvement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/Involvement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sections/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sections/Resume.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-complete-guide/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-complete-guide/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-complete-guide/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-complete-guide/package.json" afterDir="false" />
     </list>
@@ -103,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Sections/Resume.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -111,6 +108,15 @@
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNAME">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -132,18 +138,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="376">
               <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/InfoItem/InfoItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -238,13 +232,13 @@
         <option value="$PROJECT_DIR$/src/components/Sections/AboutMe.js" />
         <option value="$PROJECT_DIR$/src/components/Sections/Sections.js" />
         <option value="$PROJECT_DIR$/src/components/Sections/Projects.js" />
-        <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/src/components/Modal/TriviaModal.js" />
         <option value="$PROJECT_DIR$/src/components/Modal/BookableModal.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/Sections/Involvement.js" />
         <option value="$PROJECT_DIR$/src/components/Sections/Resume.js" />
+        <option value="$PROJECT_DIR$/CNAME" />
       </list>
     </option>
   </component>
@@ -330,7 +324,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572915542353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572952955221" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -368,18 +362,18 @@
       <option name="presentableId" value="Default" />
       <updated>1572180604830</updated>
       <workItem from="1572180606379" duration="21530000" />
-      <workItem from="1572801198211" duration="44410000" />
+      <workItem from="1572801198211" duration="45199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65940000" />
+    <option name="totallyTimeSpent" value="66729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="481" y="23" width="959" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.3642312" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993498" visible="true" weight="0.3642312" />
       <window_info id="Structure" order="1" sideWeight="0.50065017" side_tool="true" weight="0.18655589" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,7 +390,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20416124" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.60988295" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -560,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navbar/Navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -709,6 +696,13 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
