@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d30e494b5368c6b9eed47cbb39f77212",
+    "revision": "e9bd1d33cd012cc8a2727f8aa8acdfe9",
     "url": "/index.html"
   },
   {
-    "revision": "985f9b3d002e6fc49c1d",
+    "revision": "cbdab3aafdce870cbb71",
     "url": "/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "0f0751e163273a3c7b92",
-    "url": "/static/css/main.74de5b16.chunk.css"
+    "revision": "879aff2ec50707b74116",
+    "url": "/static/css/main.dc244eba.chunk.css"
   },
   {
-    "revision": "985f9b3d002e6fc49c1d",
-    "url": "/static/js/2.1d52dad1.chunk.js"
+    "revision": "cbdab3aafdce870cbb71",
+    "url": "/static/js/2.d1db3274.chunk.js"
   },
   {
-    "revision": "0f0751e163273a3c7b92",
-    "url": "/static/js/main.eace4c83.chunk.js"
+    "revision": "879aff2ec50707b74116",
+    "url": "/static/js/main.18adb12c.chunk.js"
   },
   {
     "revision": "f5b85d9813ec82bbd73d",
     "url": "/static/js/runtime-main.a6df357a.js"
   },
   {
-    "revision": "062007d8456769732e46de6734b9d1ea",
-    "url": "/static/media/Christina_ChenJR.062007d8.pdf"
+    "revision": "2d95df206d53672ef5c00450fe1267ed",
+    "url": "/static/media/Christina_ChenJR.2d95df20.pdf"
   },
   {
     "revision": "cd9cbd4a21fd3296540633a9c874b086",
@@ -80,8 +80,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bookable-video.a344c0c3.mov"
   },
   {
+    "revision": "a3ea4b068a0f04eb7c04b36fde02c9a1",
+    "url": "/static/media/duke.a3ea4b06.png"
+  },
+  {
     "revision": "21175f47c133b0fb415eb98ae1b9cf7b",
     "url": "/static/media/duuicon.21175f47.png"
+  },
+  {
+    "revision": "7428c0e4a2d2b5c1314d3f98f7ccbcbb",
+    "url": "/static/media/facebook.7428c0e4.png"
+  },
+  {
+    "revision": "0ba2aa20e2c2ce80e9a2db5b07198464",
+    "url": "/static/media/github.0ba2aa20.png"
   },
   {
     "revision": "290ef5190aababc90a016325e0fa3d05",
@@ -120,16 +132,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sharkcage.61b8bfb0.MP4"
   },
   {
-    "revision": "b73cbd041122a35a97049acbfbb2cc0b",
-    "url": "/static/media/skydiving.b73cbd04.JPG"
+    "revision": "f9af40ad5aa2e54c0ffca1cc9621078b",
+    "url": "/static/media/skydiving.f9af40ad.JPG"
   },
   {
     "revision": "a91077545c811e2ac76157b160e3208e",
     "url": "/static/media/tablemountain.a9107754.JPG"
   },
   {
-    "revision": "aefb86be2af06c55d51c027f7c09349f",
-    "url": "/static/media/trivia.aefb86be.png"
+    "revision": "a3dc74b10314640ff45747fb8a91a053",
+    "url": "/static/media/trivia.a3dc74b1.png"
   },
   {
     "revision": "725d27d2cf2405d9f22a5b586c182afa",
