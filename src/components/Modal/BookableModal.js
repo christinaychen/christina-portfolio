@@ -28,17 +28,17 @@ const BookableModal = ({ handleClose, show }) => {
                     effect={'fade'}
                     height={'100%'}
                     width={'100%'}>
-                    <img src={Slide1}/>
-                    <img src={Slide2}/>
-                    <img src={Slide3}/>
-                    <img src={Slide4}/>
-                    <img src={Slide5}/>
-                    <img src={Slide6}/>
-                    <img src={Slide7}/>
-                    <img src={Slide8}/>
-                    <img src={Slide9}/>
-                    <img src={Slide10}/>
-                    <img src={Slide11}/>
+                    <img src={Slide1} alt="slide"/>
+                    <img src={Slide2} alt="slide"/>
+                    <img src={Slide3} alt="slide"/>
+                    <img src={Slide4} alt="slide"/>
+                    <img src={Slide5} alt="slide"/>
+                    <img src={Slide6} alt="slide"/>
+                    <img src={Slide7} alt="slide"/>
+                    <img src={Slide8} alt="slide"/>
+                    <img src={Slide9} alt="slide"/>
+                    <img src={Slide10} alt="slide"/>
+                    <img src={Slide11} alt="slide"/>
                 </SlideShow>
             </div>
         </Modal>

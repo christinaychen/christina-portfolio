@@ -17,7 +17,7 @@ export default class Resume extends Component {
                  className="about-me">
                 <p className="section-title">Resume</p>
                 <div className="section-items">
-                    <object data={resume} type="application/pdf" height="800px" width="100%"></object>
+                    <object data={resume} type="application/pdf" height="800px" width="100%">resume</object>
                 </div>
             </div>
 

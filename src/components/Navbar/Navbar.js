@@ -22,7 +22,7 @@ export default class Navbar extends Component {
             <div>
             <nav className="nav-bar">
                 <div className="nav-title" onClick={this.scrollToTop}>
-                    <img src={icon} className="icon"/>
+                    <img src={icon} className="icon" alt="icon"/>
 
                     <p id="name" style={nameStyle}>Christina Chen</p>
                 </div>

@@ -7,7 +7,7 @@ const VoogasaladModal = ({ handleClose, show }) => {
     return (
             <Modal handleClose = {handleClose} show={show}>
                 <p onClick={handleClose} className="section-subtitle">Vooga Salad</p>
-                <video className="photo" autoPlay controls loop={false} muted src={require('../../assets/voogasaladvideo.mov')} type="video/mp4">
+                <video className="media" autoPlay controls loop={false} muted src={require('../../assets/voogasaladvideo.mov')} type="video/mp4">
                 </video>
                 <p className="text">
                     I worked with 8 other team members to create this Tower Defense game in which a user is able to design the game, including
