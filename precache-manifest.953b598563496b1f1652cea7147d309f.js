@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9bd1d33cd012cc8a2727f8aa8acdfe9",
+    "revision": "b044e39bd2caf7c1495d80288da7455a",
     "url": "/index.html"
   },
   {
-    "revision": "cbdab3aafdce870cbb71",
+    "revision": "6f14cce2dad859fdf050",
     "url": "/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "879aff2ec50707b74116",
-    "url": "/static/css/main.dc244eba.chunk.css"
+    "revision": "f01d1f12785d6856d95e",
+    "url": "/static/css/main.a20550b5.chunk.css"
   },
   {
-    "revision": "cbdab3aafdce870cbb71",
-    "url": "/static/js/2.d1db3274.chunk.js"
+    "revision": "6f14cce2dad859fdf050",
+    "url": "/static/js/2.72a08892.chunk.js"
   },
   {
-    "revision": "879aff2ec50707b74116",
-    "url": "/static/js/main.18adb12c.chunk.js"
+    "revision": "f01d1f12785d6856d95e",
+    "url": "/static/js/main.32840e76.chunk.js"
   },
   {
     "revision": "f5b85d9813ec82bbd73d",
     "url": "/static/js/runtime-main.a6df357a.js"
+  },
+  {
+    "revision": "55b4f0673f8f7e49b9e53b5b44810491",
+    "url": "/static/media/Christina_Chen2020.55b4f067.pdf"
   },
   {
     "revision": "2d95df206d53672ef5c00450fe1267ed",
