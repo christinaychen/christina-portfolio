@@ -13,13 +13,13 @@ export default class AboutMe extends Component {
         AOS.init();
 
         return (
-                <div data-aos="zoom-in-up"
+/*                <div data-aos="zoom-in-up"
                      data-aos-duration="1000"
                      data-aos-easing="ease-in-out"
                      data-aos-mirror="true"
                      data-aos-once="false"
-                     data-aos-anchor-placement="top-bottom"
-                     className="about-me">
+                     data-aos-anchor-placement="top-bottom"*/
+                     <div className="about-me">
                     <p className="section-title"> About Me</p>
                     <div className="section-items">
                         <div className="quotes-text">

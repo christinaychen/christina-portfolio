@@ -7,7 +7,9 @@ h1 {
   position: absolute;
   font-size: 70px;
   color: #3b3836;
-  padding: 15% 0 0 5%;
+  padding: 15% 40% 0 3%;
+  margin: 1% 1% 0% 0;
+  text-align: left;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
@@ -15,9 +17,8 @@ h2 {
   position: absolute;
   font-size: 20px;
   color: #3b3836;
-  min-height: 24%;
   max-width: 60%;
-  padding: 25% 0 0 5%;
+  padding:40vh 0% 500% 3%;
   text-align: left;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
@@ -30,7 +31,7 @@ h2 {
 }
 
 .section-subtitle {
-  font-size: 30px;
+  font-size: 2vw;
   color: white;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
@@ -62,6 +63,7 @@ h2 {
 .media {
   width: 100%;
   float: left;
+
 }
 
 .item-text {
@@ -69,21 +71,22 @@ h2 {
   color: white;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;}
 
-.involvement .section-items {
-  margin: 0px 300px 0px 300px;
-}
+/*.involvement .section-items {*/
+  /*margin: 0 10vw 0 10vw;*/
+/*}*/
 
-.about-me .section-items {
-  margin: 0px 100px 0px 100px;
-}
+/*.about-me .section-items {*/
+  /*margin: 0 10vw 0 10vw;*/
+/*}*/
 
-.projects .section-items {
-  margin: 0px 300px 0px 300px;
-}
+/*.projects .section-items {*/
+  /*margin: 0 10vw 0 10vw;*/
+/*}*/
 
 .section-items {
   display: flex;
   flex-direction: column;
+  margin: 0 15vw 0 15vw;
 }
 
 .text {
@@ -95,8 +98,9 @@ h2 {
 
 .item {
   background-color: rgba(204, 204, 204, 0.5);
-  margin: 15px;
-  padding: 10px;
+  margin: 1vw;
+  padding: 1vw;
+  /*width: 20vw;*/
 }
 
 .clickable {
@@ -216,9 +220,9 @@ blockquote p:before {
   font-size:250px;
   color:rgba(204, 204, 204, 0.5);
   font-family:Georgia, "Times New Roman", Times, serif;
-  position: fixed;
-  left:5%;
-  top:10%;
+  position: absolute;
+  left:-7vw;
+  bottom:-10vh;
 }
 
 blockquote p:after {
@@ -227,9 +231,9 @@ blockquote p:after {
   font-size:250px;
   color:rgba(204, 204, 204, 0.5);
   font-family:Georgia, "Times New Roman", Times, serif;
-  position: fixed;
-  top: 13%;
-  right:5%;
+  position: absolute;
+  top: 0vh;
+  right:-7vw;
 }
 
 quotes-text {

@@ -58,14 +58,15 @@ export default class Projects extends Component {
         AOS.init();
 
         return (
-                <div data-aos="zoom-in-up"
+                /*<div data-aos="zoom-in-up"
                      data-aos-duration="1000"
                      data-aos-easing="ease-in-out"
                      data-aos-offset="500"
                      data-aos-mirror="true"
                      data-aos-once="false"
                      data-aos-anchor-placement="top-bottom"
-                     className="projects">
+                     className="projects">*/
+                     <div className="projects">
                     <p className="section-title"> Projects</p>
                     <InfoItemGroup numCols="2" show={this.state.showItems}>
                         <InfoItem onClick={this.showVooga.bind(this)} title="Vooga Salad" src="voogasaladicon.png" description=""/>

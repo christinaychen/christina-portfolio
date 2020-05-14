@@ -13,13 +13,13 @@ export default class Home extends Component {
             backgroundSize: 'cover',
         }
         return (
-            <div style={style} data-aos="fade-up"
-                 data-aos-duration="2000"
-                 data-aos-easing="ease-in-out"
-                 data-aos-mirror="true"
-                 data-aos-once="false"
-                 data-aos-anchor-placement="top-center">
-
+                <div style={style} data-aos="fade-up"
+                     data-aos-duration="2000"
+                     data-aos-easing="ease-in-out"
+                     data-aos-mirror="true"
+                     data-aos-once="false"
+                     data-aos-anchor-placement="top-center">
+            {/*<div>*/}
                 <div data-aos="fade-right"
                      data-aos-offset="200"
                      data-aos-duration="2000"
